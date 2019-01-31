@@ -14,7 +14,7 @@ body {
   padding: 5rem 10rem;
   height: 100vh;
   position: relative;
-  background: url("/dist/assets/img/fog.jpg");
+  background: url("../img/fog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
