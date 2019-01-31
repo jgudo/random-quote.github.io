@@ -76,9 +76,9 @@ class App extends React.Component {
         <div className="loader" ref={(node) => this.loader = node}></div>
         <div className="quote-wrapper">
           <h2 className="quote">
-            <img src="/dist/assets/img/quote.svg" alt="quote" className="quote-mark quote-left" />
+            <img src="../../dist/assets/img/quote.svg" alt="quote" className="quote-mark quote-left" />
             {quote}
-            <img src="/dist/assets/img/quote.svg" alt="quote" className="quote-mark quote-right" />
+            <img src="../../dist/assets/img/quote.svg" alt="quote" className="quote-mark quote-right" />
           </h2>
           <h2 className="author">&mdash; {author.length === 0 ? 'anonymous' : author}</h2>
   

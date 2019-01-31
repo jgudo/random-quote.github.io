@@ -81,11 +81,11 @@ class App extends React.Component {
     }, React.createElement("h2", {
       className: "quote"
     }, React.createElement("img", {
-      src: "/dist/assets/img/quote.svg",
+      src: "../../dist/assets/img/quote.svg",
       alt: "quote",
       className: "quote-mark quote-left"
     }), quote, React.createElement("img", {
-      src: "/dist/assets/img/quote.svg",
+      src: "../../dist/assets/img/quote.svg",
       alt: "quote",
       className: "quote-mark quote-right"
     })), React.createElement("h2", {
