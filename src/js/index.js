@@ -41,13 +41,13 @@ class App extends React.Component {
 
     const request = async () => {
       try {
-        const response = await fetch('https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en');
+        const response = await fetch('https://favqs.com/api/qotd');
         const data = await response.json();
 
         this.loader.style.display = 'none';
         this.setState(() => ({
-          quote: data.quoteText,
-          author: data.quoteAuthor,
+          quote: data.quote.body,
+          author: data.quote.author,
           isClicked: false,
           status: 'OK'
         }));
